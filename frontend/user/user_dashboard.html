@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="user_dashboard.css">
+    <title>User Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Service Request Form</h1>
+        <form id="serviceForm">
+            <div class="form-group">
+                <label for="serviceName">Service Name:</label>
+                <input type="text" id="serviceName" placeholder="Enter the service name" required>
+            </div>
+            <div class="form-group">
+                <label for="serviceDescription">Service Description:</label>
+                <textarea id="serviceDescription" rows="4" placeholder="Enter the service description" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="service-list" id="serviceList">
+            <h2>Submitted Services</h2>
+        </div>
+        <button id="logoutButton" class="logout-button">Logout</button>
+    </div>
+    <script src="user_dashboard.js"></script>
+</body>
+
+</html>

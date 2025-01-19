@@ -1,0 +1,4 @@
+./backend/venu
+./backend/services/__pycache__
+./backend/users/__pycache__
+./backend/root/__pycache__
